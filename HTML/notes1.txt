@@ -1,0 +1,19 @@
+Extention of HTML file is : .html
+
+html 5 
+: SINGLE - WEBSITE : responsive
+: SEO : new tag
+
+In HTML we define tag is <> and if any text is written in <> is converted in a tag or if any tag is wriiter without <> it is considered as a text.
+
+Heading Tags
+Heading are of 6 types
+h1 to h6
+
+Diffrence b/w close tags & enclose tags.
+close tags have <></>
+enclose tags have only <> no closing.
+
+What is Attribute?
+Attribute is a property that came along withe tag and increases tag functionality.
+<tagname AttributeName="value" ............></tagname>

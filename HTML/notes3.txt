@@ -1,0 +1,28 @@
+What is Inline Tag & Block Tag?
+Inline tags means it takes the space according to their content.
+Block tag means it will take a row space content doesn't matter.
+
+What is Table tag?
+Table tag means combination of rows & columns.
+
+table tag
+    tr tag (table row)
+        td/th tag (td: table data & th: table head)
+Table consits of two attributes
+1. Cellspacing : space b/w outer cell & inner cell
+2. Cellpadding : space b/w content & cell
+
+RowMerge & ColumnMerge
+1. rowspan: where you see any vertical merge.
+2. Colspan : where you see any horizonta merge
+
+Linking In HTML
+Here we link a external page or a internal page
+a tag means anchor
+href(hyperlink-refernce) attribute helps us to link with a url or path
+target attribute helps us to open up the link in a new tab.
+
+Iframe Tag means open ups a frame of a linked document
+Mostly used in map integeration, youtube video integreation.
+
+Map/Youtube Video : share--> embed map 

@@ -1,0 +1,19 @@
+Media Tags : Any picture or mp4 material display.
+    1. img : src (where path of image is called) , alt(where alternate text is placed)
+    2. audio : we have to use controls attribute
+    3. video
+
+Why we create a folder?
+Multiple file ek hi jagah par rahengii
+file dhundhna mae easy
+path same rahegaa
+folder sharing mae koi dikkat nhi hogii
+
+Line break tags: br & hr
+
+List are of two types : Ordered & Unordered
+Ordered is denoted by ol
+Unordered is denoted by ul
+
+ol & ul are the parent tags.
+Where child is list-item which is denoted by li.
