@@ -1,0 +1,12 @@
+CSS stands for Cascading StyleSheet
+
+CSS is used to design the structure of our webpage.
+
+Css are of three Types:
+--> Inline(Highest Priority) : We have to write in a particular TAG.
+--> Internal(Second Highest Priority) : We have to write css in HTML FIle.
+--> External(Last Priority) : We have to create a new file and have link with html
+
+./ : visting the same folder
+../ : going to parent folder
+../../ : going to grandparet folder
