@@ -1,0 +1,18 @@
+What is semantic Tags?
+Semantic tags are the tags which used to modify our structure.
+bold
+italic
+underline etc...
+
+b : bold
+i : italic
+u : underline
+strong : bold
+pre : pre-formatted tags
+sup : superscript
+sub : subscript
+&nbsp; : for non-breaking space
+
+div & p : block tags
+
+article,code,dl--dd-dt,footer,main,caption , section,nav
