@@ -1,0 +1,26 @@
+Type of Selectors in CSS:
+--> id is denoted by # and is a symbol of unique elements in a page.
+--> class is denoted by . and is a symbol of many common styling in a page.
+--> tagname is denoted itself , here if we have given styling to any tag , all the tags will apply that.
+--> universal is denoted * , it is used to edit whole page , body
+
+Border : Applying the border on any container.
+border-width
+border-style
+border-color
+
+border-curvness : border-radius
+
+BOX MODEL : Padding & margin
+
+Positions : 5 Positions
+1. Static(default) We cannot move any object.
+2. Absolute : Here it leaves his space and move from parent position.
+3. Relative : here it donot leaves his space & make move from his own position.
+4. Fixed : It will fix his space at one place and leaves his spacxe.
+5. Sticky : It will stick at one place from its own position.
+
+Displays :
+1. Inline
+2. Block
+3. Inline-Block : It will be inline when content is in a single line , as soon as content in on seconfd line it is block tag
