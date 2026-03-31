@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        width: 150px;
+        height: 150px;
+        background-color: red;
+        position: relative;
+
+        animation: movebox 3s ease-in-out infinite;
+    }
+
+    @keyframes movebox {
+        0%{
+            top: 0px;
+            left: 0px;
+            transform: rotate(0deg);
+        }
+        
+        25%{
+            top: 200px;
+            left: 0px;
+            transform: rotate(55deg);
+        }
+        
+        50%{
+            top: 200px;
+            left: 200px;
+            transform: rotate(95deg);
+        }
+        
+        75%{
+            top: 0px;
+            left: 200px;
+            transform: rotate(135deg);
+        }
+        
+        100%{   
+            top: 0px;
+            left: 0px;
+            transform: rotate(180deg);
+        }
+    }
+
+    .carousel{
+        width: 95%;
+        height: 500px;
+        /* border: 2px solid black; */
+        margin: auto;
+        border-radius: 50px;
+
+        animation: carousel 24s ease-in-out infinite alternate;
+    }
+
+    @keyframes carousel {
+        0%{
+            background-image: url(assets/1.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        
+        30%{
+            background-image: url(assets/2.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        
+        60%{
+            background-image: url(assets/3.jpg);
+            background-position: center;
+            background-size: cover;
+            
+        }
+        
+        100%{
+            background-image: url(assets/4.jpg);
+            background-position: center;
+            background-size: cover;
+
+        }
+    }
+</style>
+<body>
+    <!-- <div class="box"></div> -->
+
+    <div class="carousel">
+
+    </div>
+</body>
+</html>
