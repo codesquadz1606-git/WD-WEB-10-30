@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: 200px 1fr 1fr;
+        justify-items: center;
+    }
+
+    .item{
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+    }
+
+    .con{
+        display: flex;
+    }
+
+    .main{
+        width: 60px;
+        height: 60px;
+        flex-grow: 0;
+        background-color: red;
+    }
+
+    .main-a{
+        width: 60px;
+        height: 60px;
+        background-color: blue;
+        flex-grow: 1;
+    }
+    .main-b{
+        width: 60px;
+        height: 60px;
+        background-color: yellow;
+        flex-grow: 2;
+    }
+
+    .main-c{
+        width: 60px;
+        height: 60px;
+        background-color: green;
+        flex-grow: 4;
+    }
+    .main-d{
+        width: 60px;
+        height: 60px;
+        background-color: black;
+        flex-grow: 3;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+
+
+    <div class="con">
+        <div class="main"></div>
+        <div class="main-a"></div>
+        <div class="main-b"></div>
+        <div class="main-c"></div>
+        <div class="main-d"></div>
+    </div>
+</body>
+</html>
