@@ -1,0 +1,33 @@
+What is Javascript?
+Js is scripting language
+It is browser language, used to develop frontend & backend.
+Runs under the node enviornment.
+
+Node is a Runtime Enivornment used to run JS in browser.
+
+JS are of three types
+--> Inline
+--> Internal
+--> External
+
+console.log(): printing any statement or operation in our output/console window.
+
+Chapter 1 : Variable, Keywords , Data-Type , User-Input & Type casting
+What is Variable?
+Variable is container that stores some value at the memory.
+
+Keywords are of three types:
+--> Let : In let value cannot be redeclared but can be reassigned.Es6
+--> Var : In var value can be redeclared.
+--> Const : In const it cannot be redeclared or reassigned value.
+
+Interview Question : Diffrence b/w let var & const?
+
+What is Data-Type?
+Number, string, undefined , boolean , Null
+
+What is User-input?
+For user-input we use prompt()
+Here prompt() by default delivers string value.
+Now to change the type we use Typecasting.
+parseInt() & parseFloat()
