@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    background-color: black;
+    color: white;
+}
+
+header{
+    /* background-color: red; */
+    border-bottom: 2px solid grey;
+    padding-bottom: 20px;
+}
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.navigation{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.navigation ul li{
+    display: inline;   
+    font-size: 1.3rem; 
+    padding-left: 15px;
+}
+
+.btns{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.btn{
+    
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.btn1{
+    background-color: blue;
+    margin-right: 10px;
+    padding: 12px 20px;
+}
+
+.btn2{
+    border: 2px solid white;
+    padding: 10px 20px;
+}
+
+
+.left{
+    width: 50%;
+    height: 509px;
+    position: absolute;
+    left: 0px;
+}
+
+input,.fnlbtn{
+    margin-left: 20px;
+    width: 600px;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+input{
+    background-color: rgb(70, 68, 68);
+    color: white;
+}
+
+input::placeholder{
+    padding-left: 30px;
+    font-size: 1rem;
+}
+
+.fnlbtn{
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+}
+.right{
+    width: 50%;
+    height: 509px;
+    position: absolute;
+    right: 0px;
+}
+
+.img-box{
+    width: 500px;
+    height: 450px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border: 10px solid skyblue;
+    background-image: url(assets/bg.png);
+    background-size: cover;
+}
+

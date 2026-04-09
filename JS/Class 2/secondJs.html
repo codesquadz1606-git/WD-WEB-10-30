@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        // console.log("My name is Shubham. I scored",45+45,"in final exam.");
+
+        // template literal : for operation we use ${} & statement will be in ``.
+        // console.log(`My name is Shubham. I scored ${45+45} in final exam`);
+
+        // Operators : Operation b/w two or more operands.
+        // 1. Arthemetic : +,-,*,/,%,**
+        // console.log(10+3)
+        // console.log(10-3)
+        // console.log(10*3)
+        // console.log(10/3) // Quotient
+        // console.log(10%3) // Remainder
+        // console.log(10**3)
+
+        // 2. Relational : <,>,<=,>=,==,!=,===
+        // console.log(10<3)
+        // console.log(10>3)
+        // console.log(10>=3)
+        // console.log(10<=3)
+        // console.log(10==3)
+        // console.log(10!=3)
+
+        // Diffrence b/w == & ===
+        // console.log(10=="10") // == never matches the data-type.
+        // console.log(10==="10") // whereas === matches data-type as well as value.
+
+        // 3. Logical : && || !
+        // in && operator :
+        // I    II      Result
+        // T    T       T
+        // T    F       F
+        // F    T       F
+        // F    F       F
+        // COnclusion : If any single condition is false then entire operation is false.
+
+        // console.log(10>3 && 45>10)
+        
+        // In || operator
+        // If single condition is true , then entire operation is true.
+        // console.log(10>3 || 45<10)
+        
+        // In ! operator
+        // true ko false & false ko true
+        // console.log(!(10>3 || 45<10))
+
+
+        // 4. unary : ++,--
+        // pre & post
+        // post 
+        // let a=10;
+        // let b=a++; // increment has done after assigning
+        // let b=a--;
+
+        // pre
+        // let a=10;
+        // let b=++a;
+        // let b=--a
+        
+        // console.log(b)
+        // console.log(a)
+
+        // 5. Assignment : +=,-=,*=,/=,%=,**=,=
+        // let a=10;
+        // a+=10 // a=a+10
+        // a-=3
+        // a/=4
+        // a*=10
+        // a%=7
+        // a**=3
+
+        // console.log(a)
+
+
+        // 6. Ternary : Based on condition
+        // (condition)?Statement 1(if true): Statement 2 (if false);
+
+        // let age=17;
+        // Most important in react
+        // (age>=19)?console.log("Age is greater than 18"):console.log("Age is Less than 19");
+
+        // Conditional Statement
+        // 1. if-else
+        // if(used multiple time) is the starting statement & else(used once) is the ending statement
+        let age=21;
+        if(age>=19){
+            console.log("Eligible")
+        }
+        else if(age>=14 && age<=18){ // always use multiple else if
+            console.log(`Eligible in ${19-age} years`)
+        }
+        else{
+            console.log("Not Eligible")
+        }
+
+        // 2. Switch Case
+    </script>
+</body>
+</html>

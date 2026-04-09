@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.box{
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+}
+
+.navigation ul{
+    display: flex;
+    gap: 20px;
+}
+
+.navigation ul li{
+    list-style: none;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.navigation ul li a:hover{
+    color: blue;
+}
+
+main{
+    display: flex;
+}
+
+.left-content{
+    width: 38%;
+    height: 800px;
+    background-color: #E6DACE;
+}
+
+.profile-box{
+    width: 390px;
+    height: 450px;
+    background-color: #F4ECE6;
+    margin-top: 130px;
+    margin-left: 190px;
+    z-index: 111;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.image{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.client-title p{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.line{
+    width: 30%;
+    height: 2px;
+    background-color: blue;
+}
+
+.job-profile{
+    letter-spacing: 10px;
+}
+
+.icon-box{
+    width: 390px;
+    height: 50px;
+    background-color: white;
+    margin-left: 190px;
+}
+
+.icon-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    gap: 30px;
+}
+
+.icon-image img{
+    width: 25px;
+}
+
+.right-content{
+    width: 65%;
+    height: 800px;
+    background-color: white;
+    z-index: -1;
+}
+
+.wrapper-content{
+    margin-left: 120px;
+    margin-top: 170px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    align-items: center;
+}
+
+.left-foot{
+    width: 24%;
+}
+
+.right-foot{
+    width: 50%;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+
+.right-foot .follow img{
+    width: 15px;
+}

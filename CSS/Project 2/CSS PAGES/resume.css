@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.box{
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+}
+
+.navigation ul{
+    display: flex;
+    gap: 20px;
+}
+
+.navigation ul li{
+    list-style: none;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.navigation ul li a:hover{
+    color: blue;
+}
+
+main{
+    width: 100%;
+    height: 2400px;
+    background-color: beige;
+}
+
+.wrapper{
+    max-width:800px ;
+    height: 2400px;
+    margin: auto;
+}
+
+.page-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 10px;
+}
+
+.pageName{
+    font-size: 1.3rem;
+}
+
+.page-box{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+}
+
+.exp-cv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.content-box{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    margin-top: 80px;
+    display: flex;
+}
+
+.content-left{
+    width: 35%;
+    height: 350px;
+}
+.content-right{
+    width: 65%;
+    height: 350px;
+}
+
+.edu{
+    margin: 80px 0px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    align-items: center;
+}
+
+.left-foot{
+    width: 24%;
+}
+
+.right-foot{
+    width: 50%;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+
+.right-foot .follow img{
+    width: 15px;
+}
