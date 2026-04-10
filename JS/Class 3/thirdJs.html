@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        // Switch Case
+        // fintech : JAVA
+        // startup : MERN
+        // Banking : Dot Net
+        // Ecommerce : Shopify
+        // let industry=prompt("Enter the industry").toLowerCase()
+        // switch (industry){
+        //     case "fintech" : console.log("Java")
+        //     break;
+        //     case "startup" : console.log("Mern")
+        //     break;
+        //     case "banking" : console.log("Dot Net")
+        //     break;
+        //     case "ecommerce" : console.log("Shopify")
+        //     break;
+        //     default : console.log("No Tech Found")
+        // }
+
+        // Chapter 3: Control - FLow Statement , Math Functions
+        // loops : for , while , do-while
+        // What is loop?
+        // It is an iteration that iterate on a condition until it is true.
+
+        // for loop : start , stop , step
+        // for(start;stop;step){
+        //  code.
+        // }
+
+        // for(let i=0;i<=10;i++){
+        //     console.log(i)
+        // }
+        // console.log("Loop Ended")
+
+        // while loop : 
+        // start
+        // while(stop){
+            // code
+            // step;
+        // }
+
+        // let i=1;
+        // while(i<=20){
+        //     console.log(i)
+        //     i+=2;
+        // }
+
+
+        // Do-while loop
+        // start
+        // do{
+            // code
+            // step
+        // }while(stop);
+
+        // let i=1;
+        // do{
+        //     if(i%2==0){
+        //         console.log(i);
+        //     }
+        //     i++;
+        // }while(i<=20);
+
+        // Math Functions : pi , abs , floor, ceil , random
+        console.log(Math.PI)
+        let num=34.6;
+        console.log(Math.abs(num))
+
+        // floor : roundoff float value at the lowest
+        console.log(Math.floor(num))
+
+        // ceil : roundoff float value at the highest
+        let num1=23.1
+        console.log(Math.ceil(num1))
+
+        // random : give me the random value b/w 0 to 1
+
+        // Generate number from 1 to 10
+        let randomNum=Math.ceil(Math.random()*100)
+        console.log(randomNum)
+
+        // 1-100 number generate & then I want to guess that number
+        let rNum=Math.ceil(Math.random()*100)
+        let guess=parseInt(prompt("Enter the guess"))
+        while(true){
+            if(guess==rNum){
+                console.log("Guessed Right Number",rNum)
+                break;
+            }
+            else if(guess<rNum){
+                guess=parseInt(prompt("Guess is small Try Again"))
+            }
+            else{
+                guess=parseInt(prompt("Guess is greater Try Again"))
+            }
+        }
+    </script>
+</body>
+</html>
